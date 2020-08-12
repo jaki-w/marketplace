@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Marketplace</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="display-4">store</h1>
+    <h2>description</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="http://lorempixel.com/200/200" alt="Product Image">
+        <h3>Product 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam nulla facilisi cras fermentum odio eu feugiat. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Dolor purus non enim praesent elementum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Dolor sit amet consectetur adipiscing elit duis tristique. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Arcu bibendum at varius vel pharetra vel. Cursus mattis molestie a iaculis at erat pellentesque. Lacus vel facilisis volutpat est velit egestas. Feugiat scelerisque varius morbi enim nunc faucibus. Lorem donec massa sapien faucibus et molestie ac feugiat sed.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="http://lorempixel.com/200/200" alt="Product Image">
+        <h3>Product 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam nulla facilisi cras fermentum odio eu feugiat. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Dolor purus non enim praesent elementum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Dolor sit amet consectetur adipiscing elit duis tristique. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Arcu bibendum at varius vel pharetra vel. Cursus mattis molestie a iaculis at erat pellentesque. Lacus vel facilisis volutpat est velit egestas. Feugiat scelerisque varius morbi enim nunc faucibus. Lorem donec massa sapien faucibus et molestie ac feugiat sed.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="http://lorempixel.com/200/200" alt="Product Image">
+        <h3>Product 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam nulla facilisi cras fermentum odio eu feugiat. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Dolor purus non enim praesent elementum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Dolor sit amet consectetur adipiscing elit duis tristique. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Arcu bibendum at varius vel pharetra vel. Cursus mattis molestie a iaculis at erat pellentesque. Lacus vel facilisis volutpat est velit egestas. Feugiat scelerisque varius morbi enim nunc faucibus. Lorem donec massa sapien faucibus et molestie ac feugiat sed.</p>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="row">
+      <form>
+        <label for="firstName">First Name:</label>
+        <input id="firstName">
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName">
+
+        <label for="address">Address:</label>
+        <input id="address">
+
+        <select class="form-control" id="item">
+          <option value="1">Product 1</option>
+          <option value="2">Product 2</option>
+          <option value="3">Product 3</option>
+        </select>
+
+        <select class="form-control" id="color">
+          <option value="1">red</option>
+          <option value="2">blue</option>
+          <option value="3">yellow</option>
+        </select>
+
+        <button class="btn btn-primary" type="submit">Submit Order</button>
+      </form>
+    </div>
+
+    <div id="receipt">
+      <p id="name"></p>
+      <p id="address"></p>
+      <ul id="itemInfo">
+
+      </ul>
+    </div>
+  
+  </div>
+</body>
+</html>
