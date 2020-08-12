@@ -1,4 +1,17 @@
-hr {
-  height: 3em;
-  color:black;
+h1{
+  text-align:center;
+  text-decoration:underline;
+}
+text-center{
+  width:50%;
+}
+#receipt{
+  display: none;
+  border-style: dotted;
+}
+#receipt #itemInfo{
+  list-style: none;
+}
+form-control{
+  width:25%;
 }
